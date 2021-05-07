@@ -49,6 +49,7 @@ pipeline {
                     kubeconfigId: 'kube_config',
                     configs: 'train-schedule-kube.yml',
                     enableConfigSubstitution: true
+                )
             }
         }
     }
